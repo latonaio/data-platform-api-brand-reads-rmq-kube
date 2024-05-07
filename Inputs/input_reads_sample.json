@@ -1,0 +1,67 @@
+{
+	"connection_key": "request",
+	"result": true,
+	"redis_key": "abcdefg",
+	"filepath": "/var/lib/aion/Data/rededge_sdc/abcdef.json",
+	"api_status_code": 200,
+	"runtime_session_id": "boi9ar543dg91ipdnspi099u231280ab0v8af0ew",
+	"business_partner": 1001,
+	"service_label": "BRAND",
+	"api_type": "reads",
+	"Brand": {
+		"Brand": 1,
+		"BrandType": "TEST",
+		"BrandOwner": 401,
+		"BrandOwnerBusinessPartnerRole": "SHOP",
+		"PersonResponsible": "TEST",
+		"ValidityStartDate": "2024-04-01",
+		"ValidityStartTime": "00:00:00",
+		"ValidityEndDate": "9999-12-31",
+		"ValidityEndTime": "23:59:59",
+		"Description": "Test Brand",
+		"LongText": "Test Brand Long Text",
+		"Introduction": "Test Brand Introduction",
+		"Project": null,
+		"WBSElement": null,
+		"Tag1": "",
+		"Tag2": "",
+		"Tag3": "",
+		"Tag4": "",
+		"CreationDate": "",
+		"CreationTime": "",
+		"LastChangeDate": "",
+		"LastChangeTime": "",
+		"IsReleased": null,
+		"IsMarkedForDeletion": null,
+		"HeaderDoc": [
+			{
+				"DocType": "",
+				"DocVersionID": null,
+				"DocID": "",
+				"FileExtension": "",
+				"FileName": "",
+				"FilePath": "",
+				"DocIssuerBusinessPartner": null
+			}
+		],
+		"Partner": [
+			{
+				"PartnerFunction": "",
+				"BusinessPartner": null,
+				"BusinessPartnerFullName": "",
+				"BusinessPartnerName": "",
+				"Organization": "",
+				"Country": "",
+				"Language": "",
+				"Currency": "",
+				"ExternalDocumentID": "",
+				"AddressID": null,
+				"EmailAddress": ""
+			}
+		]
+	},
+	"api_schema": "DPFMBrandReads",
+	"accepter": [
+		"Header"
+	]
+}
